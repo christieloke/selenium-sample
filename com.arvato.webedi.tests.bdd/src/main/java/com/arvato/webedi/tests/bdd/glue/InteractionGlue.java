@@ -35,7 +35,7 @@ public class InteractionGlue {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox"); // Bypass OS security model
         options.addArguments("--disable-dev-shm-usage");  // overcome limited resource problem
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
 //        options.addArguments("--remote-debugging-port=9222");
         options.setExperimentalOption("useAutomationExtension", false);
         options.addArguments("--disable-extensions");
