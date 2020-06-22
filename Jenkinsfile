@@ -18,7 +18,7 @@ pipeline {
                              jdk: '',
                              properties: [],
                              reportBuildPolicy: 'ALWAYS',
-                             results: [[path: 'target/allure-results']]
+                             results: [[path: 'com.arvato.webedi.tests.bdd/target/allure-results']]
                      ])
              }
              }
