@@ -1,0 +1,7 @@
+[
+  {
+    "name": "search box",
+    "findBy": "name",
+    "value": "q"
+  }
+]

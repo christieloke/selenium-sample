@@ -1,0 +1,22 @@
+[
+  {
+    "name": "username.textbox",
+    "findBy": "name",
+    "value": "UserName"
+  },
+  {
+    "name": "password.textbox",
+    "findBy": "name",
+    "value": "Password"
+  },
+  {
+    "name": "login.button",
+    "findBy": "xpath",
+    "value": "//*[@id=\"userName\"]/p[3]/input"
+  },
+  {
+    "name": "title.dropdown",
+    "findBy": "id",
+    "value": "TitleId"
+  }
+]
